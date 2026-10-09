@@ -1,0 +1,16 @@
+{
+  "name": "student-test-express-a",
+  "version": "1.0.0",
+  "description": "Student Test Express A microservice for College Cloud CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/app.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "supertest": "^6.3.4"
+  }
+}
